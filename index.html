@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>My To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Enter a new task">
+    <input type="date" id="dueDateInput">
+    <button id="addTaskBtn">Add Task</button>
+    <button id="clearAllBtn">Clear All Tasks</button>
+    <button id="taskCounterBtn" disabled>Tasks Left: 0</button>
+    <ul id="taskList"></ul>
+  </div>
+  <div class="instructions">
+    <ul>
+      <li>Enter a task and (optionally) select a due date, then click <b>Add Task</b>.</li>
+      <li>Click a task to mark it as completed.</li>
+      <li>Use the <b>☰</b> icon to drag and reorder tasks.</li>
+      <li>Click <b>❌</b> to delete a task.</li>
+      <li>Click <b>Clear All Tasks</b> to remove all tasks.</li>
+      <li>The counter shows how many tasks are left.</li>
+      <li>Your tasks are saved automatically.</li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
